@@ -1,17 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { DirectivaComponent } from './directiva/directiva.component';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './header/header.component';
+import {FooterComponent} from './footer/footer.component';
+import {DirectivaComponent} from './directiva/directiva.component';
+import {ClientComponent} from './client/client.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    DirectivaComponent
+    DirectivaComponent,
+    ClientComponent
   ],
   imports: [
     BrowserModule
@@ -19,4 +21,5 @@ import { DirectivaComponent } from './directiva/directiva.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
